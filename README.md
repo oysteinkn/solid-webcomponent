@@ -1,4 +1,5 @@
-# SolidJS template for building Web Components with TypeScript
+# Solid-Webcomponent
+Minimal template repo for building Web Components with SolidJS, TypeScript, and Vite. Styling with plain CSS. 
 
 ## Usage
 
