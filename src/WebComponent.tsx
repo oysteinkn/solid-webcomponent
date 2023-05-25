@@ -10,7 +10,10 @@ interface WebComponentProps {
 
 const WebComponent: Component<WebComponentProps> = ({  }) => {
     return (
-        <div>Hello from a Web Component!</div>
+        <div>
+            <style>{styles}</style>
+            Hello from a Web Component!
+        </div>
     )
 }
 
