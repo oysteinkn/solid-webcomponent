@@ -11,7 +11,7 @@ interface WebComponentProps {
 const WebComponent: Component<WebComponentProps> = ({  }) => {
     return (
         <div>
-            <style>{styles}</style>
+            <style scoped>{styles}</style>
             Hello from a Web Component!
         </div>
     )
